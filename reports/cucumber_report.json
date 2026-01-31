@@ -1,0 +1,66 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "testerbud;testerbudtest",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "testerbudTest",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 370786199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the page using url 'https://testerbud.com/practice-forms'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2376884100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I select country of residence 'United Kingdom'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98552400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 476831900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "testerbud",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "testerbud",
+    "tags": [],
+    "uri": "features\\testerbud.feature"
+  }
+]

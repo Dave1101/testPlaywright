@@ -1,0 +1,24 @@
+{
+  "name": "practicecucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --format json:reports/cucumber_report.json",
+    "report": "node generate-report.js",
+    "test:report": "npm run test && npm run report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^6.2.2"
+  },
+  
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.5.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "jest-html-reporter": "^4.3.0",
+    "playwright": "^1.57.0"
+  }
+}

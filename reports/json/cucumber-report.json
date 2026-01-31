@@ -1,0 +1,318 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "testerbud;testerbudtest",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "testerbudTest",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 387296900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the page using url 'https://testerbud.com/practice-forms'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2158586699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I select country of residence 'United Kingdom'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2971904999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The value in country of residence dropdown is 'United Kingdom'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2041000700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I select title 'Mr.'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2060891400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The value in title dropdown is 'Mr.'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2048890999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I enter first name 'Digvijay'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2052788200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "The value in first name field is 'Digvijay'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2069873299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I enter last name 'Thakur'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2068612199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "The value in last name field is 'Thakur'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2050887900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I enter dob in format YYYY-MM-DD '1996-01-11'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6127024799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "The value in DOB field is '1996-01-11'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2046387600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I enter doj in format dd slash mm slash yyyy '11/01/2021'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:113"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6094735400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "The value in DOJ field is '11/01/2021'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2049987699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I enter email 'ab@gmail.com'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2055612099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "The value in email field is 'ab@gmail.com'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2038668499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I select phone country code '+91'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2057534599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "The value in phone country code field is '+91'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2030622299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I enter phone number '8989898989'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2032297299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "The value in phone number field is '8989898989'",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2045902999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I select radio email",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7076351300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "radio email is selected",
+            "match": {
+              "location": "features\\step-definitions\\testerbud.steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2012797700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1162981899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "testerbud",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "testerbud",
+    "tags": [],
+    "uri": "features\\testerbud.feature"
+  }
+]
